@@ -17,7 +17,7 @@ export const initialSlides: Slide[] = [
     ],
     media: {
       type: 'image',
-      url: '/src/assets/images/eco_school_hero_1790352940234.jpg',
+      url: '/images/eco_school_hero_1790352940234.jpg',
       caption: 'Maktabimizning yashil hududi va ekologik faoliyatidan lavha',
       alt: 'Eco School binosi va koʻkalamzorlashtirish'
     },
@@ -46,7 +46,7 @@ export const initialSlides: Slide[] = [
     ],
     media: {
       type: 'image',
-      url: '/src/assets/images/eco_school_hero_1790352940234.jpg',
+      url: '/images/eco_school_hero_1790352940234.jpg',
       caption: 'Maktabimiz jamoasining xalqaro ekologik maqsadlari',
       alt: 'Eco-schools missiyasi'
     },
@@ -75,7 +75,7 @@ export const initialSlides: Slide[] = [
     ],
     media: {
       type: 'image',
-      url: '/src/assets/images/eco_audit_nature_1790352985613.jpg',
+      url: '/images/eco_audit_nature_1790352985613.jpg',
       caption: 'Maqsadlarimiz — aniq oʻlchanadigan natijalar asosida',
       alt: 'Maqsadlar va vazifalar'
     },
@@ -102,7 +102,7 @@ export const initialSlides: Slide[] = [
     ],
     media: {
       type: 'image',
-      url: '/src/assets/images/eco_committee_meeting_1790352963730.jpg',
+      url: '/images/eco_committee_meeting_1790352963730.jpg',
       caption: '7 qadam xaritasi — bizning harakat dasturimiz',
       alt: '7 qadam yoʻl xaritasi'
     },
@@ -126,7 +126,7 @@ export const initialSlides: Slide[] = [
     ],
     media: {
       type: 'image',
-      url: '/src/assets/images/eco_committee_meeting_1790352963730.jpg',
+      url: '/images/eco_committee_meeting_1790352963730.jpg',
       caption: 'Eko-qoʻmitaning haftalik rejalashtirish yigʻilishidan lavha',
       alt: 'Eko-qoʻmita aʼzolari'
     },
@@ -156,7 +156,7 @@ export const initialSlides: Slide[] = [
     ],
     media: {
       type: 'image',
-      url: '/src/assets/images/eco_committee_meeting_1790352963730.jpg',
+      url: '/images/eco_committee_meeting_1790352963730.jpg',
       caption: 'Vazifalar taqsimoti va masʼul patrullar kengashi',
       alt: 'Qoʻmita tuzilmasi'
     },
@@ -180,7 +180,7 @@ export const initialSlides: Slide[] = [
     ],
     media: {
       type: 'image',
-      url: '/src/assets/images/eco_committee_meeting_1790352963730.jpg',
+      url: '/images/eco_committee_meeting_1790352963730.jpg',
       caption: 'Yigʻilish bayonnomalari va muhokama jarayonlari',
       alt: 'Yigʻilishlar'
     },
@@ -208,7 +208,7 @@ export const initialSlides: Slide[] = [
     ],
     media: {
       type: 'image',
-      url: '/src/assets/images/eco_audit_nature_1790352985613.jpg',
+      url: '/images/eco_audit_nature_1790352985613.jpg',
       caption: 'Oʻquvchilar maktab hovlisi va binolarida audit oʻtkazmoqda',
       alt: 'Eko-audit oʻtkazish'
     },
@@ -232,7 +232,7 @@ export const initialSlides: Slide[] = [
     ],
     media: {
       type: 'image',
-      url: '/src/assets/images/eco_audit_nature_1790352985613.jpg',
+      url: '/images/eco_audit_nature_1790352985613.jpg',
       caption: 'Elektr hisoblagichlar va yoritish tizimini oʻrganish jarayoni',
       alt: 'Energiya auditi'
     },
@@ -261,7 +261,7 @@ export const initialSlides: Slide[] = [
     ],
     media: {
       type: 'image',
-      url: '/src/assets/images/eco_audit_nature_1790352985613.jpg',
+      url: '/images/eco_audit_nature_1790352985613.jpg',
       caption: 'Suv sarfini oʻlchash va kranlarni texnik koʻrikdan oʻtkazish',
       alt: 'Suv auditi'
     },
@@ -290,7 +290,7 @@ export const initialSlides: Slide[] = [
     ],
     media: {
       type: 'image',
-      url: '/src/assets/images/eco_code_celebration_1790352998449.jpg',
+      url: '/images/eco_code_celebration_1790352998449.jpg',
       caption: 'Chiqindilarni saralash va tarozi orqali oʻlchash natijalari',
       alt: 'Chiqindi auditi'
     },
@@ -319,7 +319,7 @@ export const initialSlides: Slide[] = [
     ],
     media: {
       type: 'image',
-      url: '/src/assets/images/eco_audit_nature_1790352985613.jpg',
+      url: '/images/eco_audit_nature_1790352985613.jpg',
       caption: 'Oʻquvchilar tuproq va oʻsimlik turlarini oʻrganmoqda',
       alt: 'Biologik xilma-xillik'
     },
@@ -349,7 +349,7 @@ export const initialSlides: Slide[] = [
     ],
     media: {
       type: 'image',
-      url: '/src/assets/images/eco_committee_meeting_1790352963730.jpg',
+      url: '/images/eco_committee_meeting_1790352963730.jpg',
       caption: 'Harakatlar rejasi maktab eʼlonlar taxtasiga joylashtirildi',
       alt: 'Harakatlar rejasi'
     },
@@ -373,7 +373,7 @@ export const initialSlides: Slide[] = [
     ],
     media: {
       type: 'image',
-      url: '/src/assets/images/eco_code_celebration_1790352998449.jpg',
+      url: '/images/eco_code_celebration_1790352998449.jpg',
       caption: 'Maktabimiz koridoridagi saralash stansiyalari',
       alt: 'Chiqindilarni saralash'
     },
@@ -402,7 +402,7 @@ export const initialSlides: Slide[] = [
     ],
     media: {
       type: 'image',
-      url: '/src/assets/images/eco_school_hero_1790352940234.jpg',
+      url: '/images/eco_school_hero_1790352940234.jpg',
       caption: 'Energiyani tejovchi uskunalar va tejamkorlik tadbirlari',
       alt: 'Energiya tejash'
     },
@@ -431,7 +431,7 @@ export const initialSlides: Slide[] = [
     ],
     media: {
       type: 'image',
-      url: '/src/assets/images/eco_school_hero_1790352940234.jpg',
+      url: '/images/eco_school_hero_1790352940234.jpg',
       caption: 'Oʻquvchilar va oʻqituvchilar koʻchat ekish tadbirida',
       alt: 'Yashil makon aksiyasi'
     },
@@ -460,7 +460,7 @@ export const initialSlides: Slide[] = [
     ],
     media: {
       type: 'image',
-      url: '/src/assets/images/eco_audit_nature_1790352985613.jpg',
+      url: '/images/eco_audit_nature_1790352985613.jpg',
       caption: 'Eko-patrullar haftalik monitoring koʻrsatkichlarini tekshirmoqda',
       alt: 'Monitoring jarayoni'
     },
@@ -484,7 +484,7 @@ export const initialSlides: Slide[] = [
     ],
     media: {
       type: 'image',
-      url: '/src/assets/images/eco_school_hero_1790352940234.jpg',
+      url: '/images/eco_school_hero_1790352940234.jpg',
       caption: 'Kuzatuv natijalari va diagrammalar tahlili',
       alt: 'Oldin va keyin'
     },
@@ -514,7 +514,7 @@ export const initialSlides: Slide[] = [
     ],
     media: {
       type: 'image',
-      url: '/src/assets/images/eco_audit_nature_1790352985613.jpg',
+      url: '/images/eco_audit_nature_1790352985613.jpg',
       caption: 'Laboratoriya darslarida suv va tuproq namunalarini tahlil qilish',
       alt: 'Darslar bilan integratsiya'
     },
@@ -538,7 +538,7 @@ export const initialSlides: Slide[] = [
     ],
     media: {
       type: 'image',
-      url: '/src/assets/images/eco_audit_nature_1790352985613.jpg',
+      url: '/images/eco_audit_nature_1790352985613.jpg',
       caption: 'Oʻquvchilar kompostlash tajribasini oʻrganmoqda',
       alt: 'Amaliy tajribalar'
     },
@@ -567,7 +567,7 @@ export const initialSlides: Slide[] = [
     ],
     media: {
       type: 'image',
-      url: '/src/assets/images/eco_audit_nature_1790352985613.jpg',
+      url: '/images/eco_audit_nature_1790352985613.jpg',
       caption: 'Yosh ixtirochilar oʻzlarining ekologik maketlari bilan',
       alt: 'Ilmiy loyihalar'
     },
@@ -591,7 +591,7 @@ export const initialSlides: Slide[] = [
     ],
     media: {
       type: 'image',
-      url: '/src/assets/images/eco_committee_meeting_1790352963730.jpg',
+      url: '/images/eco_committee_meeting_1790352963730.jpg',
       caption: 'Ota-onalar va mahalla faollari bilan oʻtkazilgan seminar',
       alt: 'Jamiyatni jalb qilish'
     },
@@ -620,7 +620,7 @@ export const initialSlides: Slide[] = [
     ],
     media: {
       type: 'image',
-      url: '/src/assets/images/eco_code_celebration_1790352998449.jpg',
+      url: '/images/eco_code_celebration_1790352998449.jpg',
       caption: 'Maktabimizda oʻtkazilgan koʻtarinki ruhdagi Eko-fleshmob',
       alt: 'Eko aksiyalar'
     },
@@ -644,7 +644,7 @@ export const initialSlides: Slide[] = [
     ],
     media: {
       type: 'image',
-      url: '/src/assets/images/eco_code_celebration_1790352998449.jpg',
+      url: '/images/eco_code_celebration_1790352998449.jpg',
       caption: 'Maktab foyesidagi rasmiy Eko-Schools axborot stendi',
       alt: 'Eko burchak'
     },
@@ -669,7 +669,7 @@ export const initialSlides: Slide[] = [
     ],
     media: {
       type: 'image',
-      url: '/src/assets/images/eco_code_celebration_1790352998449.jpg',
+      url: '/images/eco_code_celebration_1790352998449.jpg',
       caption: 'Oʻquvchilar qoʻlida maktabimizning tasdiqlangan Eko-Kodi',
       alt: 'Eko-kod banneri'
     },
@@ -693,7 +693,7 @@ export const initialSlides: Slide[] = [
     ],
     media: {
       type: 'image',
-      url: '/src/assets/images/eco_code_celebration_1790352998449.jpg',
+      url: '/images/eco_code_celebration_1790352998449.jpg',
       caption: 'Oʻquvchilar ijodiy plakatlar bilan Eko-kodni namoyish etmoqda',
       alt: 'Eko-kod ijodi'
     },
@@ -721,7 +721,7 @@ export const initialSlides: Slide[] = [
     ],
     media: {
       type: 'image',
-      url: '/src/assets/images/eco_code_celebration_1790352998449.jpg',
+      url: '/images/eco_code_celebration_1790352998449.jpg',
       caption: 'Biz faxr bilan "Yashil Bayroq" sari olgʻa qadam tashlaymiz!',
       alt: 'Yashil bayroq sari'
     },
@@ -750,7 +750,7 @@ export const initialSlides: Slide[] = [
     ],
     media: {
       type: 'image',
-      url: '/src/assets/images/eco_school_hero_1790352940234.jpg',
+      url: '/images/eco_school_hero_1790352940234.jpg',
       caption: 'Tabiatni birgalikda asraymiz! Yashil Maktab Jamoasi',
       alt: 'Yakuniy minnatdorchilik'
     },

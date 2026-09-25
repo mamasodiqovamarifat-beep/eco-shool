@@ -174,7 +174,7 @@ export default function App() {
       ],
       media: {
         type: 'image',
-        url: '/src/assets/images/eco_school_hero_1790352940234.jpg',
+        url: '/images/eco_school_hero_1790352940234.jpg',
         caption: "Yangi faoliyatdan lavha",
         alt: "Eco School lavhasi"
       },
