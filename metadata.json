@@ -1,0 +1,6 @@
+{
+  "name": "Eco-Schools O'zbekiston - 7 Qadam Taqdimot Platformasi",
+  "description": "Eco-Schools (Yashil Maktab) 7 qadam dasturi bo'yicha interaktiv, tahrirlanadigan, video va rasm yuklanadigan 28 varoqli zamonaviy slayd taqdimoti.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
