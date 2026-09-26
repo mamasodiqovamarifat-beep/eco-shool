@@ -24,6 +24,7 @@ import {
   BgVideoSettings 
 } from './components/BackgroundVideoPlayer';
 import { BackgroundVideoModal } from './components/BackgroundVideoModal';
+import { GeminiAIModal } from './components/GeminiAIModal';
 
 export default function App() {
   const [presentation, setPresentation] = useState<PresentationData>(defaultPresentation);
@@ -33,6 +34,7 @@ export default function App() {
   const [isFullscreen, setIsFullscreen] = useState(false);
   const [isPlaying, setIsPlaying] = useState(false);
   const [isLoaded, setIsLoaded] = useState(false);
+  const [isGeminiModalOpen, setIsGeminiModalOpen] = useState(false);
   const [toastMessage, setToastMessage] = useState<string | null>(null);
 
   // Background Video State with localStorage persistence
@@ -437,6 +439,7 @@ export default function App() {
           onOpenBgSettings={() => setIsBgModalOpen(true)}
           onNextBgVideo={() => setCurrentBgIndex((prev) => (prev + 1) % bgVideos.length)}
           onPrevBgVideo={() => setCurrentBgIndex((prev) => (prev - 1 + bgVideos.length) % bgVideos.length)}
+          onOpenGeminiAI={() => setIsGeminiModalOpen(true)}
         />
       </div>
 
@@ -488,6 +491,21 @@ export default function App() {
         currentVideoIndex={currentBgIndex}
         onSelectVideo={setCurrentBgIndex}
         onAddCustomVideo={handleAddCustomVideo}
+      />
+
+      {/* Google Gemini AI Modal */}
+      <GeminiAIModal
+        isOpen={isGeminiModalOpen}
+        onClose={() => setIsGeminiModalOpen(false)}
+        currentSlide={currentSlide}
+        schoolName={presentation.schoolName}
+        onUpdateSlideNotes={(notes) => {
+          handleUpdateSlide({
+            ...currentSlide,
+            speakerNotes: notes,
+          });
+          setToastMessage("Nutq slaydga muvaffaqiyatli saqlandi!");
+        }}
       />
 
       {/* Toast Notification Alert */}

@@ -38,6 +38,7 @@ interface TopNavProps {
   onOpenBgSettings: () => void;
   onNextBgVideo?: () => void;
   onPrevBgVideo?: () => void;
+  onOpenGeminiAI: () => void;
 }
 
 export const TopNav: React.FC<TopNavProps> = ({
@@ -61,6 +62,7 @@ export const TopNav: React.FC<TopNavProps> = ({
   onOpenBgSettings,
   onNextBgVideo,
   onPrevBgVideo,
+  onOpenGeminiAI,
 }) => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const fileInputRef = useRef<HTMLInputElement>(null);
@@ -183,6 +185,20 @@ export const TopNav: React.FC<TopNavProps> = ({
 
       {/* Zone 3: Primary Actions */}
       <div className="flex items-center gap-2">
+        {/* Gemini AI Assistant Button */}
+        <button
+          type="button"
+          onClick={onOpenGeminiAI}
+          className="flex items-center gap-1.5 px-2.5 py-1.5 text-xs font-semibold rounded-lg bg-gradient-to-r from-emerald-600 via-teal-600 to-indigo-600 hover:from-emerald-500 hover:to-indigo-500 text-white shadow-sm border border-emerald-400/40 transition-all whitespace-nowrap"
+          title="Google Gemini AI - Eko-Yordamchi va API Kalit"
+        >
+          <Sparkles className="w-3.5 h-3.5 text-amber-300 animate-pulse" />
+          <span>Gemini AI</span>
+          <span className="hidden sm:inline text-[9px] bg-black/40 px-1 py-0.2 rounded border border-white/20 text-emerald-300 font-mono">
+            Faol
+          </span>
+        </button>
+
         {/* Mode Switcher: Tahrirlash / Taqdimot */}
         <button
           type="button"
